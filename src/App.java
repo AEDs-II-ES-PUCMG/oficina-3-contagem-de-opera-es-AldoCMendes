@@ -193,7 +193,7 @@ public class App {
         for (int n : tamanhosTestePequeno) {
             operacoes = 0;
             long inicio = System.nanoTime();
-            int resultado = codigo4(n);
+            codigo4(n);
             long fim = System.nanoTime();
             double tempoMs = (fim - inicio) * nanoToMilli;
             System.out.printf("%-15d | %-20d | %-15.2f%n", n, operacoes, tempoMs);
